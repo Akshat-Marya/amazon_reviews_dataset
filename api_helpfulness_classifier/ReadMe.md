@@ -7,9 +7,9 @@
 # Installation and QuickRun
 - Set-up a conda environment and run app using following commands
 ```
-cd /medchart_challenge/api_helpfulness_classifier
+cd /amazon_review_dataset_challenge/api_helpfulness_classifier
 $ conda env create -f environment.yml
-$ conda activate medchart_test
+$ conda activate amazon_review_dataset_test
 $ python create_db.py
 $ python run.py
 ```
@@ -21,13 +21,13 @@ Deployed at `localhost:5000/api`, don't forget to use the endpoint '/api'
 
 # Run tests
 ```
-cd /medchart_challenge
+cd /amazon_review_dataset_challenge
 python manage_app.py test
 ```
 
 # Database:SqlAlchemy
 ```
-cd /medchart_challenge/api_helpfulness_classifier
+cd /amazon_review_dataset_challenge/api_helpfulness_classifier
 python create_db.py
 ```
 

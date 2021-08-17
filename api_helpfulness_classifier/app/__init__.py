@@ -9,7 +9,7 @@ from .main.controller.transaction_controller import api as transaction_ns
 blueprint = Blueprint('api', __name__, url_prefix='/api')
 
 api = Api(blueprint,
-          title='medchart amazon review dataset challenge',
+          title='amazon review dataset challenge',
           version='1.0',
           description='Input house features and return house price'
           )

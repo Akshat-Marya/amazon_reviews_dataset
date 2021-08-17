@@ -1,4 +1,4 @@
-name: medchart_test
+name: amazon_review_dataset
 channels:
   - pytorch
   - anaconda
