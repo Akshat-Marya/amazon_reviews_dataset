@@ -10,9 +10,9 @@ Please follow the steps mentioned in the `api_helpfullness_classifier/ReadMe.md`
 # Installation and QuickRun
 - Set-up a conda environment and run app using following commands
 ```
-cd /medchart_challenge/api_helpfulness_classifier
+cd /amazon_review_dataset_challenge/api_helpfulness_classifier
 $ conda env create -f environment.yml
-$ conda activate medchart_test
+$ conda activate amazon_review_dataset_test
 $ python create_db.py
 $ python run.py
 ```
@@ -24,7 +24,7 @@ Deployed at `localhost:5000/api`, don't forget to use the endpoint '/api'
 # Directory Structure
 Please do not change the directory structure from initial:
 
-- medchart-challenge
+- amazon_review_dataset-challenge
     - api_helpfulness_classifier
     - rate_helpfulness
 
